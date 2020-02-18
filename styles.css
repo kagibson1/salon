@@ -1,0 +1,317 @@
+/* organized by order of appearance on each page! */
+
+
+/* WEBSITE - WIDE CSS */
+
+/* get the font */
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+
+.main{
+    text-align: center;
+}
+
+
+.header li {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 90px;
+    font-weight: bolder;
+
+}
+
+#logo {
+    height: 25px;
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+.header {
+    border: dotted;
+    border-color: #bc4639;
+    color: white;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #5C2018;
+    background-color: #D4A59A;
+
+
+}
+
+.header a {
+    color: inherit;
+}
+
+dl a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#BannerArea{
+    color: white;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #F3E0DC;
+}
+#BannerArea strong {
+    font-size: 300%;
+    line-height: 250%;
+    margin-left: 10px;
+    
+}
+
+#BannerArea em {
+    color: #D4A59A;
+    margin-left: 10px;
+    font-size: 120%;
+    text-decoration: none;
+
+}
+
+#BannerArea a {
+    color: inherit;
+}
+#BannerArea button {
+    margin-left: 15px;
+    font-size: 150%;
+    height: 30px;
+}
+
+#column_container {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.big {
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+em {
+    font-family: 'Merriweather', serif;
+}
+
+.main {
+    width: 940px;
+    background-color: #D4A59A;
+    margin: 0 auto;
+    text-align: center;
+    color: #5C2018;
+}
+
+
+.main_text {
+    width: 940px;
+    background-color: #D4A59A;
+    margin: 0 auto;
+    text-align: center;
+    color: #5C2018;
+}
+
+.main_text h1 {
+    color: white;
+}
+
+.main_text a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#left {
+    text-align: left;
+}
+
+dl {
+    font-family: 'Merriweather', serif;
+    line-height: 150%;
+}
+
+#myfooter {
+    display: inline-block;
+    height: 50px;
+                
+}
+
+
+   .footer{
+    text-align: center;      
+    margin: auto;
+    padding: 2.5px;
+
+}
+
+.smlogo{
+    height: 55px;
+}
+
+hr {
+    width: 1000px;
+}
+
+p#jump_menu {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* END WEBSITE-WIDE */
+/* HOME PAGE SPECIFIC */
+#linkapply {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.column1of3, .column2of3, .column3of3 {
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    float: left;
+    margin-left: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+
+}
+
+
+.column1of3:hover, .column2of3:hover, .column3of3:hover{
+  opacity: 0.5;
+
+}
+
+button:hover{
+    opacity: .8;
+    background-color: #4285F4;
+}
+
+
+button {
+    background: transparent;
+    border-color: white;
+    border-width: thin;
+    color: white;
+    height: 25px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* FORM - SPECIFIC ~ APPLICATION PAGE */
+
+input {
+    font-family: 'Merriweather', serif;
+    font-size: 75%;
+    margin-left: -7%;
+    margin-top: 20px;
+
+}
+#app {
+    width: 960px;
+    margin-top: 20px;
+}
+fieldset{
+    width: 500px;
+}
+select {
+    width: 40%;
+    margin-right: 4%;
+    margin-left: 1%;
+}
+
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.third {
+    text-align: left;
+    margin-right: 0%;
+}
+
+
+.half {
+    width: 50%;
+    display: inline;
+
+}
+
+.title_sel {
+    margin-right: 10%;
+}
+.full {
+    width: 100%;
+}
+
+.upload {
+    line-height: 150%;
+    text-align: left;
+    margin-left: 5%;
+    
+}
+
+#EYear {
+    margin-left: 20px;
+}
+
+#JobTitle {
+    margin-left: -2px;
+
+}
+
+
+
+#ESchool {
+    
+    margin-left: -5%;
+}
+
+#Details {
+    margin-left: -5%;
+}
+
+#details-label {
+    text-align: center;
+    margin-left: -5%;
+}
+
+#ResumeUpload, #CoverLetterUpload {
+    margin-left: 0px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+#sub {
+    margin-left: 1%;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none
+}

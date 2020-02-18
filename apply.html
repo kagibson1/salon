@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+
+</head>
+
+
+<header class="header">
+			
+			<ul class="menu, nav">
+				<li id = "menu-item-0" class="menu-item"> <a href="index.html"><img id = "logo" class = "nav" src="images/yeehonk.JPG"> </a></li>
+				<li id="menu-item-1" class="menu-item"><a href="index.html">Home</a></li>
+				<li id="menu-item-2" class="menu-item"><a href="index.html">Locations</a></li>
+				<li id="menu-item-3" class="menu-item"><a href="index.html">Services</a></li>
+				<li id="menu-item-4" class="menu-item"><a href="index.html">Membership Options</a></li>
+				<li id="menu-item-5" class="menu-item"><a href="index.html">About</a></li>
+				<li id="menu-item-6" class="menu-item"><a href="FAQs.html">FAQs</a></li>
+			</ul>
+			
+		</header> <!-- end .header -->
+
+
+<body>
+
+<!--Main banner -->
+	<section class="banner-area full" id="BannerArea">
+	<div class="info" id="BannerAreaText" img src="images/spacer.gif" alt="" style="background-image:url(images/blue.jpeg); height: 350px; background-size: 100% auto">
+		<strong>Apply now!</strong> <br>
+		<h2 id = "sub">Tell us about how awesome you are.</h2>
+		<em>Questions? Contact us at <a href="tel:425-898-4110">(425)898-4110</a> </em>
+		
+	</div>
+</section>
+
+<!-- Job application form-->
+
+<section class="job-application" id="JobApplication">
+	<div class="form main" id="JobApplicationForm" id = "app">
+		
+			<ul>
+				<li class="third">
+					
+					<div class="input-text">
+						<input placeholder="Full name" type="text" size = 33.33% id="JobName"required="required" autocomplete="off" style="cursor:auto"  value>
+					</div>
+				</li>
+				<li class="third">
+				
+					<div class="input-text">
+						<input placeholder="Phone number" size = 34.5% id="JobPhone" type="tel" pattern="[(]\d{3}[)][\s]\d{3}[\-]\d{4}" class="phone-mask" required="required" name="JobPhone" value>
+						
+					
+					</div>
+				</li>
+				<li class="third">
+				
+					<div class="input-text">
+						<input placeholder="Email address" size = 33.33% id="JobApplicationForm_ITM0_Email" type="text" required="required" name="JobApplicationForm$ITM0$Email" value>
+						
+					</div>
+
+			</li>
+		</ul>
+
+		<ul>
+
+				<li class="half">
+				
+					<span class="input-text select-box" id = "title_sel">
+						<select  id="JobTitle" required="required" name="JobTitle">
+							<option value="" selected="">Job title</option>
+							<option value="Waxologists">Waxologists</option>
+							<option value="Nailologists">Nailologists</option>
+							<option value="Lashologists">Lashologists</option>
+							<option value="AdministrativeAssistant">Administrative Assistant</option>
+							<option value="MarketingManager">Marketing Manager</option>
+						</select>
+						
+					</span>
+				</li>
+
+				<li class="half">
+				
+					<span class="input-text select-box">
+						<select id="JobApplicationForm_ITM0_Location" required="required" class="FranchiseLocation job-info" name="JobApplicationForm$ITM0$Location">
+							
+							<optgroup label="Oregon">
+								<option value="1">Portland (Corporate Only)</option>
+							</optgroup>
+
+							<optgroup label="Washington">
+								<option value="2">Seattle</option>
+								<option value ="3">Bellevue</option>
+							</optgroup>
+
+						</select>
+					</span>
+
+
+				</li>
+
+			</ul>
+			<ul>
+
+		
+
+				<li class="full upload">
+					<label>Upload your cover letter
+						(docx or pdf file format)</label> 
+					<input id="CoverLetterUpload" type="file" placeholder="" name="CLUp" value>
+				</li>
+				<li class="full upload">
+					<label for="JobApplicationForm_ITM0_ResumeUpload">Upload your resume
+						(docx or pdf file format) </label> 
+					<input id="ResumeUpload" type="file" placeholder="" name="ResUP" value>
+				</li>
+
+			</ul>
+			<ul>
+				
+				<li class="half typein">
+					
+					<span class="input-text">
+						<input placeholder="Esthetician&#8217;s School Attended:"  size = "50%" id="ESchool" type="text" autocomplete="off" value>
+					</span>
+				</li>
+
+				<li class="half typein">
+				
+					<span class="input-text">
+						<input placeholder="Esthetician&#8217;s Licensing Year:" size = "50%" id="EYear" type="text" autocomplete="off"  value>
+					</span>
+				</li>
+				</ul>
+
+				<ul>
+
+				<li class="full">
+					<label class="hide" for="Details" id="details-label">Details:</label>
+					<div class="input-text">
+						<textarea class="add-details" cols="100" placeholder="Provide additional details, if you like" id="Details" name="JobApplicationForm$ITM0$Details"></textarea>
+					</div>
+				</li>
+			</ul>
+	
+		<p>Snazzy Salons is an equal opportunity employer.</p>
+
+		<input id="JobApplicationForm_ITM0_FFD6" type="hidden" name="JobApplicationForm" value data-item="i" data-key="">
+		<button type="submit" onclick="location='index.html'">Submit</button>
+	</div>
+
+</section>
+</body>
+
+<!--Social media -->
+
+<footer class="footer">
+        <div id = "myfooter">
+        			<hr>
+                     <p> © 2020 </p>
+                    <div class="socialmedia"> 
+                        <a href="https://twitter.com/kellen_gibson6">
+                            <span class="twitter"> <img class= "smlogo" src="images/f081.png"/></span>
+                        </a> 
+                        <a href="https://www.instagram.com/kellen.gibson/">
+                            <span class="insta"> <img class= "smlogo" src="images/f082.png"/></span>
+                        </a> 
+                        <a href="https://www.facebook.com/">
+                            <span class="facebook"> <img class= "smlogo" src="images/f083.png"/> </span>
+                        </a> 
+                    </div>
+                </div>
+ </footer>
+
+</html>
